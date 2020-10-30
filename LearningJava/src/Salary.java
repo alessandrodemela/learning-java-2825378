@@ -12,6 +12,9 @@ public class Salary {
     private static final int WEEK_PER_YEAR = 52;
 
     public static double computeSalary(int hoursPerWeek, int moneyPerHour, int vacationDays){
+        if (hoursPerWeek<0 || moneyPerHour<0 || vacationDays<0) {
+            return -1;
+        }
         double salary = WEEK_PER_YEAR * hoursPerWeek * moneyPerHour - HOURS_PER_DAY * vacationDays;
 
         return salary;
