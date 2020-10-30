@@ -18,5 +18,7 @@ public class Song {
         }
 
         System.out.println("Playing next song");
+
+        input.close();
     }
 }

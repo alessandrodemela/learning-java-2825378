@@ -22,6 +22,7 @@ public class MultipleChoices {
             System.out.println("WRONG!! Correct answer was " + correctAnswer + " : " + choiceTwo);
         }
 
+        scanner.close();
     }
 
 }

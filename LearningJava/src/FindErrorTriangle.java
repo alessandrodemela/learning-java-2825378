@@ -26,5 +26,6 @@ public class FindErrorTriangle {
         double area = (base * height) / 2;
         System.out.println("The area is " + area);
 
+        input.close();
     }
 }

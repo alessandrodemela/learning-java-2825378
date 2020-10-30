@@ -12,5 +12,7 @@ public class FortuneTeller {
         } else {
             System.out.println("Bad luck!");
         }
+
+        scanner.close();
     }
 }
