@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Student {
     public static void main(String[] args){
         int studentAge = 15;
         double studentGPA = 3.42;
