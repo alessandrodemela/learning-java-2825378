@@ -2,7 +2,7 @@
 //
 //      Author: Alessandro Demela
 //      Date: 30/10/2020
-//      This program calculates meal price
+//      This program shows an example of function in Java
 //
 //////////////////////////////////////////////////////////////////////
 
