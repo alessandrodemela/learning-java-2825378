@@ -16,6 +16,14 @@ public class Main {
         double triangeAArea = triangleA.findArea();
         System.out.println(triangeAArea);
 
+        StudentClass studA = new StudentClass("Pippo","Baudo",2021,29.4);
+
+        System.out.println(studA.expYearToGraduate);
+
+        studA.incrementYearToGraduate();
+
+        System.out.println(studA.expYearToGraduate);
+
     }
     
 }

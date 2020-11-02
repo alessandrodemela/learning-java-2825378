@@ -12,7 +12,6 @@ public class Triangle {
     static int numOfSides = 3;
 
     public Triangle(double base, double height, double sideLengthOne, double sideLengthTwo, double sideLengthThree){
-
         this.base = base;
         this.height = height;
         this.sideLengthOne = sideLengthOne;
